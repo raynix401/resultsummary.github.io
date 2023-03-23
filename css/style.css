@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Fraunces:opsz@9..144&family=Hanken+Grotesk:wght@500;700;800&family=Homemade+Apple&family=Montserrat:wght@100;400&family=Oswald&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,600;1,300&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,300;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color:  hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main-container{
+    max-width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 20px;
+   
+    
+}
+.container-1{
+    width: 50%;
+    
+}
+.wrapper{
+    text-align: center;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    padding: 10px 25px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.first-head{
+    font-size: 1rem;
+    color:hsl(241, 100%, 89%)
+    ;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.circle{
+    border-radius: 50%;
+    background: linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    
+}
+.number{
+    color: #fff;
+    padding-top: 30px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.con-1-para{
+    color: hsl(241, 100%, 89%);
+    font-size: 10px;
+    font-weight: 200;
+}
+.second-head{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+}
+.con-2-para{
+    font-size: 12px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    padding: 5px 15px 30px;
+
+}
+
+
+
+/* container-2 edit */
+.container-2{
+    width: 50%;
+}
+.wrapper-2{
+    padding: 10px 25px;
+}
+.con-2-heading{
+    color: hsl(224, 30%, 27%)
+    ;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+.flex-box{
+    display: flex;
+    flex-direction: column;
+   
+}
+.box{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.text{
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.flex-img{
+    height: 13px;
+    width: 13px;
+}
+.box-1{
+    background-color: hsla(0, 100%, 67%,0.1);
+}
+.box-2{
+    background-color: hsla(39, 100%, 56%,0.1);
+}
+.box-3{
+    background-color: hsla(166, 100%, 37%,0.1);
+}
+.box-4{
+    background-color: hsla(234, 85%, 45%,0.1);
+}
+.flex-text-1{
+    color: hsl(0, 100%, 67%);
+}
+.flex-text-2{
+    color: hsl(39, 100%, 56%);
+}
+.flex-text-3{
+    color: hsl(166, 100%, 37%);
+}
+.flex-text-4{
+    color: hsl(234, 85%, 45%);
+}
+.flex-num{
+    font-size: 12px;
+}
+.span-num{
+    color: hsl(224, 30%, 27%);
+    font-weight: 900;
+}
+.main-btn{
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    
+    
+}
+.btn{
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    padding:15px;
+    width: 100%;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+
+
+@media only screen and (max-width:375px) {
+
+    body{
+        padding: 15px;
+    }
+    .main-container{
+    max-width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+   
+    
+}
+.container-1{
+    width: 100%;
+
+}
+.container-2{
+    width: 100%;
+}
+}
